@@ -38,7 +38,7 @@ object Hello extends Greeting with App {
       case b: B => 2
       case C(i) => i
     }
-  
+
   println(s"Computed: ${testSealedCoverage(C(5))}")
 }
 
